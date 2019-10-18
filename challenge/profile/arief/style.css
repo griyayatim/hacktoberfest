@@ -305,7 +305,7 @@ h6 {
 }
 
 .project1::after {
-      content: "timeless flow.";
+      content: "tukang cendol.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -323,7 +323,7 @@ h6 {
 }
 
 .project2::after {
-      content: "foretime.";
+      content: "mantep bener.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -341,7 +341,7 @@ h6 {
 }
 
 .project3::after {
-      content: "never again.";
+      content: "asik banget.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -359,7 +359,7 @@ h6 {
 }
 
 .project4::after {
-      content: "departure.";
+      content: "tambal ban.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
