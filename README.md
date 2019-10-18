@@ -2,4 +2,4 @@
 
 # hacktoberfest
 
-This Repo is designed for Beginner Developer to learn contributing on Open Source by make simple profile and calculator on this repo.
+This Repo is designed for Beginner Developer to learn contributing to Open Source by make simple profile and calculator on this repo.
