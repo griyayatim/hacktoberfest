@@ -1,89 +1,46 @@
-body{
-	font-family: 'Comic Sans MS', cursive, sans-serif;
-    background-image: url(meccha\ senku.jpg);
-}
-#container{
-	background-size: cover;
-	
-}
-#calculator{
-	width: 320px;
-	height: 520px;
-	background-color: #3fa1e2;
-	margin: 0 auto;
-	top: 60px;
-	position: relative;
-	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-#result{
-	height: 120px;
-}
-#history{
-	text-align: right;
-	height: 20px;
-	margin: 0 20px;
-	padding-top: 20px;
-	font-size: 15px;
-	color: #919191;
-}
-#output{
-	text-align: right;
-	height: 60px;
-	margin: 10px 20px;
-	font-size: 30px;
-}
-#keyboard{
-	height: 400px;
-}
-.operator, .number, .empty{
-	width: 50px;
-	height: 50px;
-	margin: 15px;
-	float: left;
-	border-radius: 50%;
-	border-width: 0;
-	font-weight: bold;
-	font-size: 15px;
-}
-.number, .empty{
-	background-color: #eaedef;
-}
-.number, .operator{
-	cursor: pointer;
-}
-.number:hover{
-	background-color: rgb(131, 129, 129);
-}
-.operator:active, .number:active{
-	font-size: 13px;
-}
-.operator:focus, .number:focus, .empty:focus{
-	outline: 0;
-}
-#clear:hover{
-	background-color: #BFBFBF;
-}
-#backspace:hover{
-	background-color: #BFBFBF;
-}
-button:nth-child(4){
-	font-size: 20px;
-	background-color: #bd8216;
-}
-button:nth-child(8){
-	font-size: 20px;
-	background-color: #ff3300;
-}
-button:nth-child(12){
-	font-size: 20px;
-	background-color: #80f085;
-}
-button:nth-child(16){
-	font-size: 20px;
-	background-color: #b4f10c;
-}
-button:nth-child(20){
-	font-size: 20px;
-	background-color: #1ce4d3;
-}
+
+#calc-contain{
+    position: absolute;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 0px auto;
+    padding: 20px 20px 100px 20px;
+  }
+  #agh{
+    position: relative;
+    float: right;
+    margin-top: 15px;
+  }
+  #agh p{
+    font-size: 20px;
+    font-weight: 900;
+  }
+  input[type=button] {
+    background: lightGray;
+    width: 20%;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 7px;
+    margin-left: 13px;
+    margin-top: 10px;
+  }
+  input[type=button]:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  input[type=button]:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  input[type = text] {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 4px 0px 12px black inset;
+  }
