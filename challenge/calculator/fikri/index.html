@@ -1,44 +1,45 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
-		<title>Simple calculator | Pradana's</title>
-	</head>
-	<body>
-		<div id="container">
-			<div id="calculator">
-				<div id="result">
-					<div id="history">
-						<p id="history-value"></p>
-					</div>
-					<div id="output">
-						<p id="output-value"></p>
-					</div>
-				</div>
-				<div id="keyboard">
-					<button class="operator" id="clear">C</button>
-					<button class="operator" id="backspace">CE</button>
-					<button class="operator" id="%">%</button>
-					<button class="operator" id="/">&#247;</button>
-					<button class="number" id="1">1</button>
-					<button class="number" id="2">2</button>
-					<button class="number" id="3">3</button>
-					<button class="operator" id="*">&times;</button>
-					<button class="number" id="4">4</button>
-					<button class="number" id="5">5</button>
-					<button class="number" id="6">6</button>
-					<button class="operator" id="-">-</button>
-					<button class="number" id="7">7</button>
-					<button class="number" id="8">8</button>
-					<button class="number" id="9">9</button>
-					<button class="operator" id="+">+</button>
-					<button class="operator" id=";">.</button>
-					<button class="number" id="0">0</button>
-					<button class="empty" id="empty"></button>
-					<button class="operator" id="=">=</button>
-				</div>
-			</div>
-		</div>
-		<script src="script.js"></script>
-	</body>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div id='calc-contain'>
+  
+          <form name="calculator">
+            
+            <input type="text" name="answer" />
+            <br>
+            
+            <input type="button" value=" 1 " onclick="calculator.answer.value += '1'" />
+            <input type="button" value=" 2 " onclick="calculator.answer.value += '2'" />
+            <input type="button" value=" 3 " onclick="calculator.answer.value += '3'" />
+            <input type="button" value=" + " onclick="calculator.answer.value += '+'" />
+            <br/>
+            
+            <input type="button" value=" 4 " onclick="calculator.answer.value += '4'" />
+            <input type="button" value=" 5 " onclick="calculator.answer.value += '5'" />
+            <input type="button" value=" 6 " onclick="calculator.answer.value += '6'" />
+            <input type="button" value=" - " onclick="calculator.answer.value += '-'" />
+            </br>
+          
+            <input type="button" value=" 7 " onclick="calculator.answer.value += '7'" />
+            <input type="button" value=" 8 " onclick="calculator.answer.value += '8'" />
+            <input type="button" value=" 9 " onclick="calculator.answer.value += '9'" />
+            <input type="button" value=" x " onclick="calculator.answer.value += '*'" />
+            </br>
+        
+            <input type="button" value=" c " onclick="calculator.answer.value = ''" />
+            <input type="button" value=" 0 " onclick="calculator.answer.value += '0'" />
+            <input type="button" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)" />
+            <input type="button" value=" / " onclick="calculator.answer.value += '/'" />
+            </br>
+  
+    
+          </form>
+          <div id="agh">
+            <p>fikri pradana calc
+          </div>
+        </div>
+    </body>
 </html>
