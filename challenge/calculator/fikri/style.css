@@ -1,9 +1,4 @@
-html, body{
-    height: 100%;
-    width: 100%;
-    padding: 25% auto;
-    background-color: black;
-}
+
 #calc-contain{
     position: absolute;
     width: 400px;
@@ -36,7 +31,7 @@ html, body{
     transform: translateY(4px);
   }
   input[type=button]:hover {
-    background-color: #003300;
+    background-color: black;
     color: white;
   }
   
